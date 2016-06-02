@@ -1,0 +1,28 @@
+Promyslet je třeba:
+
+Hodnotouvou doménu (obecně)
+-jak reprezetonvat _contrainty_
+
+ValueId x Value x ValueRepresentation (Pointery ve Value na ValRep, či ne - něco jiného?)
+-pointer by byl optimalizací přístupu, je unikátní, takže asi být může
+
+
+----------
+Naprogramovet je třeba:
+Hodnotová doména:
+~základní požadavaky
+-dobrý interface, poskytující i pokročilé dotazy, které zatím tato doména nemusí zvládat zodpovědět
+--> to možná vede na tříhodnotový systém, či výjimky
+-s hodnotami je třeba zvládat:
+--evaluation / compare
+--join / abstrakce
+~poskytovat funkcionalitu (v pořadí přiority)
+1) ne-rovnost dvou value, rovnost s konstantou
+2) je val 1 z (a,b)? (intervaly)
+3) je val1 < val2? (relace)
+
+
+------------
+Nápady:
+SMT solvery (na hodnotový systém/pokročilé závyslosti myslím?),
+Offsety, velikosti v SMG jako hodnoty v něm umístěné!!
