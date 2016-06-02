@@ -1,0 +1,4 @@
+Zapozdření programových proměných (obecně nejen z LLVM, pro práci mezi ALGO, OP a SPC)
+
+Zapozdření typů (opět LLVM, ... x SPC)
+
